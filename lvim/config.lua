@@ -1,0 +1,1 @@
+/Users/rodrigo.nascimento/.local/share/lunarvim/lvim/config.lua

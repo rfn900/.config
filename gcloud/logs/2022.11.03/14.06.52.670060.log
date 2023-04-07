@@ -1,0 +1,13 @@
+2022-11-03 14:06:52,672 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2022-11-03 14:06:52,681 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2022-11-03 14:06:52,686 DEBUG    root            Running [gcloud.auth.list] with arguments: [--filter: "status=ACTIVE", --format: "value(account)", --quiet: "True", --verbosity: "warning"]
+2022-11-03 14:06:52,716 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)"
+2022-11-03 14:06:52,716 WARNING  root            The following filter keys were not present in any resource : status
+2022-11-03 14:06:52,729 DEBUG    root            Checking for updates...
+2022-11-03 14:06:52,745 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-11-03 14:06:52,925 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 203446
+2022-11-03 14:06:53,201 DEBUG    root            Updating notification cache...
+2022-11-03 14:06:53,203 DEBUG    root            Activating notification: [default]
