@@ -28,10 +28,10 @@ return {
   },
 
   -- Configure LazyVim to load gruvbox
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "kanagawa-dragon",
-  --   },
-  -- },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "kanagawa-wave",
+    },
+  },
 }
